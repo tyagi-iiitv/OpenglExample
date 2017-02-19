@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+OpenglExample.egg-info/PKG-INFO
+OpenglExample.egg-info/SOURCES.txt
+OpenglExample.egg-info/dependency_links.txt
+OpenglExample.egg-info/requires.txt
+OpenglExample.egg-info/top_level.txt
+pyopengl_example/__init__.py
+pyopengl_example/demo.py
+pyopengl_example/load_room_obj.py
+pyopengl_example/main.py
+pyopengl_example/data/final.mtl
+pyopengl_example/data/final.obj

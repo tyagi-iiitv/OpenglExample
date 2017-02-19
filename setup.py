@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 
 setup(
-	name='PyopenglExample',
-	version='0.0.1',
+	name='OpenglExample',
+	version='1.2',
 	description='A simple example demonstrating how to render an obj file to visualize in 3-D using Pyopengl and Pygame.',
 	long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
 
@@ -21,7 +21,16 @@ setup(
 		'reading blender obj files'
 	),
 
-	packages=['app'],
+	packages=['pyopengl_example'],
+
+	include_package_data=True,
+
+	package_data={
+		'data':
+			['data/final.mtl',
+			'data/final.obj'	
+			],	
+	},
 
 	setup_requires = (
     	'setuptools',
@@ -29,13 +38,14 @@ setup(
 
 	install_requires=[
 		'pygame >= 1.9.1release',
-		'pyopengl >= 3.1.1a1'
+		'pyopengl >= 3.1.1a1',
+		'numpy >= 1.8.2'
 	],
 
 	scripts=[
-		'app/demo.py',
-		'app/demo.py',
-		'app/load_room_obj.py'
+		'pyopengl_example/demo.py',
+		'pyopengl_example/main.py',
+		'pyopengl_example/load_room_obj.py'
 	],
 	
 	classifiers=[

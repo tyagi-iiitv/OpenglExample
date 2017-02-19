@@ -13,7 +13,7 @@ PyopenglExample (Python 2.x)
 ::
 
     $ python
-    >>> from PyopenglExample.app.demo import demo
+    >>> from pyopengl_example.demo import demo
     >>> demo()
 
 -  After the obj file is loaded, use the arrow keys to move within the

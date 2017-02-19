@@ -10,7 +10,7 @@
 
 ```
 $ python
->>> from PyopenglExample.app.demo import demo
+>>> from pyopengl_example.demo import demo
 >>> demo()
 ```
 

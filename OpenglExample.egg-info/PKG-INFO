@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
-Name: PyopenglExample
-Version: 0.0.1
+Name: OpenglExample
+Version: 1.2
 Summary: A simple example demonstrating how to render an obj file to visualize in 3-D using Pyopengl and Pygame.
 Home-page: https://codemyway.in
 Author: Anjul Kumar Tyagi
@@ -22,7 +22,7 @@ Description: PyopenglExample (Python 2.x)
         ::
         
             $ python
-            >>> from PyopenglExample.app.demo import demo
+            >>> from pyopengl_example.demo import demo
             >>> demo()
         
         -  After the obj file is loaded, use the arrow keys to move within the

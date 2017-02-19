@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 def MTL(filename):
     contents = {}
     mtl = None
-    filename = os.path.join(BASE_DIR,'app',filename)
+    filename = os.path.join(BASE_DIR,'pyopengl_example','data',filename)
     for line in open(filename, "r"):
         if line.startswith('#'): continue
         values = line.split()
