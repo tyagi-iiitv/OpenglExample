@@ -6,20 +6,38 @@ setup(
 	version='0.0.1',
 	description='A simple example demonstrating how to render an obj file to visualize in 3-D using Pyopengl and Pygame.',
 	long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
+
 	author='Anjul Kumar Tyagi',
 	author_email='atyagi@codemyway.in',
 	url='https://codemyway.in',
-	download_url=''
+	download_url='https://github.com/tyagi-iiitv/PyopenglExample/archive/master.zip',
+	
+	keywords= (
+		'pyopengl example',
+		'blender with pyopengl',
+		'pyopengl',
+		'pygame',
+		'pygame with pyopengl',
+		'reading blender obj files'
+	),
+
 	packages=['app'],
+
+	setup_requires = (
+    	'setuptools',
+	),
+
 	install_requires=[
 		'pygame >= 1.9.1release',
 		'pyopengl >= 3.1.1a1'
 	],
+
 	scripts=[
 		'app/demo.py',
 		'app/demo.py',
 		'app/load_room_obj.py'
 	],
+	
 	classifiers=[
 		'Development Status :: 5 - Production/Stable',
 		'Environment :: Console',
