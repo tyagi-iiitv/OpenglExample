@@ -1,0 +1,6 @@
+include *.md LICENSE
+include runtests.py
+recursive-include app *.py
+recursive-include app *.obj
+recursive-include app *.mtl
+recursive-include requirements *.txt
