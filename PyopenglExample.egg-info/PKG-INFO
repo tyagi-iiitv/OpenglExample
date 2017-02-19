@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: PyopenglExample
+Version: 0.0.1
+Summary: A simple example demonstrating how to render an obj file to visualize in 3-D using Pyopengl and Pygame.
+Home-page: https://codemyway.in
+Author: Anjul Kumar Tyagi
+Author-email: atyagi@codemyway.in
+License: UNKNOWN
+Download-URL: https://github.com/tyagi-iiitv/PyopenglExample/archive/master.zip
+Description: PyopenglExample (Python 2.x)
+        ============================
+        
+        -  Works in python **2.x** only. Not tested on Python **3.x**
+        
+        -  Install using pip ``sudo pip install PyopenglExample``
+        
+        -  You can Install the requirements manually
+           ``sudo pip install -r requirements.txt``
+        
+        -  To run the code, do:
+        
+        ::
+        
+            $ python
+            >>> from PyopenglExample.app.demo import demo
+            >>> demo()
+        
+        -  After the obj file is loaded, use the arrow keys to move within the
+           scene.
+        
+        -  Rotation can be observed by left clicking the mouse and moving it in
+           the direction you want to rotate the object.
+        
+Keywords: pyopengl example,blender with pyopengl,pyopengl,pygame,pygame with pyopengl,reading blender obj files
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2 :: Only

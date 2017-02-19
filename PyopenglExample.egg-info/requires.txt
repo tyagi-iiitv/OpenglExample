@@ -1,0 +1,2 @@
+pygame >= 1.9.1release
+pyopengl >= 3.1.1a1
